@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Log in to Cosmic to access your personalized space dashboard. Explore missions, news, and celestial events tailored for you.">
+    <meta name="keywords" content="Cosmic, login, space account, access space dashboard, space website login">
+    <meta name="author" content="Vesa Qilerxhiu">
+    <title>Cosmic Log In</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="icon" href="./assets/images/space-icon.png" type="image/png">
+
+    <!-- Google Font - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <h2>Log In to Cosmic</h2>
+            <p id="errorMessage" class="error-message"></p>
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Username">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password">
+
+            <button type="button" onclick="logInForm()">Log in</button>
+        </form>
+
+        <div class="loginDiv">
+            <h2>Welcome back!</h2>
+            <p>We're glad to have you here. Log in to unlock personalized features and stay connected.</p>
+            <p class="alreadyHave">No account yet? <a href="signup.html">Sign Up</a>.</p> 
+            <p class="continueWithout"><a href="index.html" onclick="localStorage.setItem('isLoggedIn', 'false')">Continue without account</a></p>
+        </div>
+    </div>
+        
+    <script src="./js/login.js"></script>
+    
+</body>
+</html>

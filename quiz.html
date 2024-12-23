@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Test your knowledge about space with our fun and interactive space quiz.">
+  <meta name="keywords" content="space quiz, space knowledge, planets, galaxies, space trivia, space science">
+  <meta name="author" content="Vesa Qilerxhiu">
+  <title>Cosmic Space Quiz</title>
+  <link rel="stylesheet" href="./css/quiz.css">
+
+  <!-- Google Font - Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a href="index.html" id="home-link">Go to Home</a>
+  <div class="quiz-container">
+    <h1>Space Quiz</h1>
+    <div id="quiz-box">
+      <p id="question">Question text will go here</p>
+      <div id="options">
+        <!-- Options will be dynamically inserted here -->
+      </div>
+      <button id="next-btn" disabled>Next</button>
+    </div>
+    <div id="score-box" style="display: none;">
+      <h2>Your Score:</h2>
+      <p id="score"></p>
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
+  </div>
+  <script src="./js/quiz.js"></script>
+</body>
+</html>

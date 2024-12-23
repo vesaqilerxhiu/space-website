@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Cosmic, your ultimate guide to space exploration. Discover upcoming missions, celestial events, and fascinating insights into the universe.">
+    <meta name="keywords" content="Cosmic, space exploration, astronomy, rockets, planets, stars, galaxies, universe, space news">
+    <meta name="author" content="Vesa Qilerxhiu">
+    <title>Cosmic</title>
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="icon" href="./assets/images/space-icon.png" type="image/png">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Font - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Google Font - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="page-title">
+            <h1>Cosmic</h1>
+            <p>Beyond the stars, Into the future</p>
+            <p id="helloMessage">Hello, user!</p>
+        </div>
+        <div class="navbar">
+            <a href="#">News</a>
+            <a href="#mission-section">Missions</a>
+            <a href="quiz.html">Space Quiz</a>
+            <a href="login.html" id="log-in" class="log-in">Log In</a>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="news-section container">
+            <div class="main-title">
+                <img src="./assets/svg/icon.svg" alt="Icon">
+                <h3>Featured News</h3>
+            </div>
+            
+            <div class="news">
+                <div class="news-text">
+                    <h4>Hubble Images a Grand Spiral</h4>
+                    <p>As fascinating as the galaxy appears at visible wavelengths, some of NGC 5643’s most interesting features are invisible to the human eye.</p>
+                    <p>This NASA/ESA Hubble Space Telescope image features the glorious spiral galaxy NGC 5643, which is located roughly 40 million light-years away in the constellation Lupus, the Wolf. NGC 5643 is a grand design spiral, which refers to the galaxy’s symmetrical form with two large, winding spiral arms that are clearly visible.</p>
+                </div>
+                <div class="news-picture">
+                <img src="./assets/images/galaxy.png" alt="Galaxy picture">
+                </div>
+            </div>
+
+
+            <div class="news">
+                <div class="news-text second">
+                    <h4>NASA Outlines Latest Moon to Mars Plans in 2024 Architecture Update</h4>
+                    <p>As NASA develops a blueprint for space exploration throughout the solar system for the benefit of humanity, the agency released several new documents Friday updating its Moon to Mars architecture. The roadmap sets NASA on course for long-term lunar exploration under the Artemis campaign in preparation for future crewed missions to Mars.</p>
+                    <p>Following an Architecture Concept Review, the 2024 updates include a revision of NASA’s Architecture Definition Document which details technical approaches and processes of the agency’s exploration plans, an executive overview, and 12 new white papers on key Moon to Mars topics.</p>
+                </div>
+                <div class="news-picture second">
+                    <img src="./assets/images/moon.png" alt="Moon picture">
+                </div>
+            </div>        
+        </div>
+
+        <div id="mission-section">
+            <div class="container">
+                <div class="main-title">
+                    <img src="./assets/svg/icon.svg" alt="Icon">
+                    <h3>2025 Upcoming Missions</h3>
+                </div>
+                <p class="mission-intro">Explore the exciting space missions scheduled for launch in 2025. This year promises groundbreaking advancements in space exploration, with missions aimed at uncovering new frontiers in our solar system and beyond.</p>
+                <div class="missions">
+                    <div class="mission">
+                        <div class="mission-img">
+                            <img src="./assets/images/mission1.jpg" alt="Mission 1">
+                        </div>
+                        <div class="mission-text">
+                            <h4>Soyuz MS-27</h4>
+                            <p>Launching in: <span class="countdown" data-mission-date="February 27, 2025 00:00:00"></span></p>
+                        </div>
+                    </div>
+                    <div class="mission">
+                        <div class="mission-img">
+                            <img src="./assets/images/mission2.jpg" alt="Mission 2">
+                        </div>
+                        <div class="mission-text">
+                            <h4>Lunar Trailblazer</h4>
+                            <p>Launching in: <span class="countdown" data-mission-date="August 3, 2025 15:30:00"></span></p>
+                        </div>
+                    </div>
+                    <div class="mission">
+                        <div class="mission-img">
+                            <img src="./assets/images/mission3.jpg" alt="Mission 3">
+                        </div>
+                        <div class="mission-text">
+                            <h4>Stellar Voyage: Nexus</h4>
+                            <p>Launching in: <span class="countdown" data-mission-date="October 25, 2025 22:40:00"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer-info">
+                    <p><i class="fa-solid fa-location-dot"></i>21 Revolution Street, New York, USA</p>
+                    <p><i class="fa-solid fa-phone"></i>+1 555 123456</p>
+                    <p><i class="fa-solid fa-envelope"></i><a href="#">cosmic@org.com</a></p>
+                    <div class="social-media-links">
+                        <a class="social-media" href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="social-media" href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="social-media" href="https://www.x.com/" target="_blank" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="social-media" href="https://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a class="social-media" href="https://www.youtube.com/" target="_blank" title="Youtube"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <p>Copyright &copy; 2024 Cosmic. All rights reserved</p>
+                </div>
+                <div class="footer-location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12084.262848716413!2d-73.9840374224928!3d40.78256947812939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589a018531e3%3A0xb9df1f7387a94119!2sCentral%20Park!5e0!3m2!1sen!2s!4v1734807348168!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
