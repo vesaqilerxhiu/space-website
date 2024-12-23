@@ -10,8 +10,10 @@ JavaScript: For interactive elements, user authentication, and dynamic functiona
 
 ## Features ✨ 
 Responsive Design: Optimized for various screen sizes for a seamless experience.  
-Mission Launch Countdown: Displays the time left until the next space mission using Javascript.  
 User Authentication: A signup and login system using JavaScript and localStorage.  
+Mission Launch Countdown: Displays the time left until the next space mission.  
+Interactive Quiz: A space-themed quiz to test your knowledge about space exploration. 
+
 
 ## Live Demo 🌐    
 You can explore the live version of this project here:  
