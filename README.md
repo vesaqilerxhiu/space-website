@@ -3,6 +3,10 @@
 The Space Website is a project I created as part of ICT Web Application Development bootcamp, using HTML, CSS, and JavaScript.  
 This website showcases news, images and missions launching in 2025 and includes interactive features like user authentication and a fun space-themed quiz.
 
+## Live Demo 🌐    
+You can explore the live version of this project here:  
+[Space Website] (https://vesaqilerxhiu.github.io/space-website/)  
+
 ## Technologies Used 🛠️  
 **HTML**: For structuring the website.  
 **CSS**: For styling and layout.  
@@ -15,7 +19,4 @@ This website showcases news, images and missions launching in 2025 and includes 
 **Interactive Quiz**: A space-themed quiz to test your knowledge about space exploration. 
 
 
-## Live Demo 🌐    
-You can explore the live version of this project here:  
-[Space Website] (https://vesaqilerxhiu.github.io/space-website/)
 
