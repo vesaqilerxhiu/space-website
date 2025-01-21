@@ -8,7 +8,7 @@ You can explore the live version of this project here:
 [Space Website] (https://vesaqilerxhiu.github.io/space-website/)  
 
 ## Technologies Used 🛠️  
-**HTML**: For structuring the website.  
+**HTML**: For structuring the website.   
 **CSS**: For styling and layout.  
 **JavaScript**: For interactive elements, user authentication, and dynamic functionality.  
 
