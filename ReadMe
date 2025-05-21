@@ -1,0 +1,34 @@
+Versioni live i website (me Github):
+https://vesaqilerxhiu.github.io/space-website/
+
+Projekti permban 4 faqe:
+
+MAIN PAGE (index.html, app.css, app.js)
+Sherben si faqja hyrese e website-it.
+Permban lajme, foto dhe misione te ardhshme hapesinore.
+Perfshin nje numerues kohor per nisjen e misioneve te radhes (me JavaScript).
+Nese nje perdorues eshte i regjistruar, nje mesazh i personalizuar pershendetes do te shfaqet ne header "Hello, 'emri i perdoruesit'!" (me JavaScript).
+
+
+SIGNUP PAGE (signup.html, signup.css, signup.js)
+Lejon perdoruesit e rinje te krijojne llogari.
+Validon inputin e perdoruesit per te siguruar qe te gjitha fushat e kerkuara nuk jane te zbrazeta dhe jane plotesuar sic duhet (psh. gjatesia e username, gjatesia e password, formati i sakte i emailit etj.)
+Ruan te dhenat e perdoruesve ne menyre te sigurte ne localStorage per hyrjet e ardhshme.
+
+
+LOGIN PAGE (login.html, login.css, login.js)
+Lejon perdoruesit ekzistues te idenfitikohen ne website.
+Perdor JavaScript dhe localStorage per te verifikuar te dhenat e perdoruesve.
+Validon inputin e perdoruesit per te siguruar qe asnje fushe nuk mbetet e zbrazet.
+
+
+QUIZ PAGE (quiz.html, quiz.css, quiz.js)
+Permban nje kuiz me teme hapesinore per te anagzhuar perdoruesit.
+Perdor JavaScript per interaktivitetin e kuizit, kalimin e pyetjeve dhe llogaritjen e pikeve.
+
+
+SVG icons dhe iframe jane perdorur ne Main Page - index.html
+
+Te gjitha layout-et e faqeve jane ndertuar me Flexbox dhe jane dizajnuar te jene responsive - me media queries, nga kompjuteret desktop deri te smartphones.
+
+
